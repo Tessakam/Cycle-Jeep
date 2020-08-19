@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="ChangeListManager">
+    <list default="true" id="9bf56d6e-6b8d-4647-8d15-e0a7883e369a" name="Default Changelist" comment="" />
+=======
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -41,7 +45,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1gJEoa6XuRi3vlFEoiaiVsc820r" />
+=======
+  <component name="ProjectId" id="1gJNAJnyIQvjrB20JprhgzmrJdi" />
+>>>>>>> ced1139f88d07234d7cfe52046906fcc63d10d37
 =======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,6 +73,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+=======
+    <property name="nodejs_package_manager_path" value="npm" />
+>>>>>>> ced1139f88d07234d7cfe52046906fcc63d10d37
 =======
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -84,12 +96,21 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <changelist id="b71664c0-993b-455f-b8d1-28573f08dba2" name="Default Changelist" comment="" />
       <created>1597824470271</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597824470271</updated>
       <workItem from="1597824471445" duration="2432000" />
+=======
+      <changelist id="9bf56d6e-6b8d-4647-8d15-e0a7883e369a" name="Default Changelist" comment="" />
+      <created>1597828591185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597828591185</updated>
+      <workItem from="1597828592355" duration="634000" />
+>>>>>>> ced1139f88d07234d7cfe52046906fcc63d10d37
 =======
       <changelist id="16f45f9d-c2d5-4813-b4e9-63c8cedaf9b9" name="Default Changelist" comment="" />
       <created>1597824644771</created>
@@ -104,6 +125,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
