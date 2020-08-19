@@ -19,7 +19,7 @@ Check out our trello for all our working updates.
 
 
 #PUBLISH SITE
-...
+* https://tessakam.github.io/Cycle-Jeep/. 
 
 
 > End
