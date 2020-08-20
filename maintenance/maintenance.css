@@ -1,7 +1,13 @@
 @font-face {
   font-family: 'creteRound', sans-serif;
   src: url("https://github.com/Tessakam/Cycle-Jeep/tree/master/public/fonts");
-  src: url(CreteRound-Regular.ttf); }
+  src: url("../public/fonts/CreteRound-Regular.ttf"); }
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white; }
+
 .banner-img {
   object-fit: none;
   object-position: center;
@@ -103,7 +109,9 @@ button {
   background-color: #efd993;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  border-radius: 12px; }
 
 button:hover {
   background-color: #b39f6d;
