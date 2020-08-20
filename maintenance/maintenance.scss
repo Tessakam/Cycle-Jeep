@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: 'creteRound', sans-serif;
+  src: url("https://github.com/Tessakam/Cycle-Jeep/tree/master/public/fonts") format();
+  src: local(CreteRound-Regular.ttf);
+}
+
+.banner-container {
+
+  overflow: hidden;
+  width:200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px 10px 10px 10px
+
+}
+
+#img-info {
+  width: 50%;
+  height: auto;
+}
