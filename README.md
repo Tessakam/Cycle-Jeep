@@ -23,7 +23,7 @@ Check out our trello for all our working updates.
 
 #Requirements
 
-    Perfection is not a detail
+    - [ ] Perfection is not a detail
     All buttons and links work
     All elements work and are complete (menu, lists, images, ...)
     Everything on the page has a function, a reason to be there
