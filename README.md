@@ -23,43 +23,43 @@ Check out our trello for all our working updates.
 
 #Requirements
 
-- [ ] Perfection is not a detail
+- [x] Perfection is not a detail
 - [ ] All buttons and links work
 - [ ] All elements work and are complete (menu, lists, images, ...)
-- [ ] verything on the page has a function, a reason to be there
+- [ ] Everything on the page has a function, a reason to be there
 - [ ] No dead links
-- [ ] English and dutch are not mixed
-- [ ] No spelling errors
-- [ ] No grammar errors
+- [x] English and dutch are not mixed
+- [x] No spelling errors
+- [x] No grammar errors
 - [ ] The website is deployed somewhere
-- [ ] Everything is relevant (no image of a barber on the website of a baker)
+- [x] Everything is relevant (no image of a barber on the website of a baker)
     
 Content
 
-- [ ] Openinghours (if needed)
-- [ ] Address (if needed)
+- [x] Openinghours (if needed)
+- [x] Address (if needed)
 - [ ] Clickable email
 - [ ] A working form (you can use https://formspree.io)
     
 
 Text life matters aka typography is real
 
-- [ ] Some words are bolded
-- [ ] Some words are italic
-- [ ] Some words have a different color
-- [ ] We aren't using a default font, cause it's not 2004
+- [x] Some words are bolded
+- [x] Some words are italic
+- [x] Some words have a different color
+- [x] We aren't using a default font, cause it's not 2004
 - [ ] Contrast is not too low
 - [ ] Typographic hierachy is correct
 - [ ] Text has a clear intro, middle, conclusion
 - [ ] Intro, middle, conclusion is style correctly
 - [ ] Headline font is a headline font
 - [ ] Body text font is a body text font
-- [ ] The text on the page has a good flow
+- [x] The text on the page has a good flow
 
 Style
 
-- [ ] Black is almost black but not #000
-- [ ] White is almost white but not #fff 
+- [x] Black is almost black but not #000
+- [x] White is almost white but not #fff 
 - [ ] The website is not an ugly color mess
 - [ ] The styling is consistent
 - [ ] It is not four totally different pages thrown together
@@ -80,15 +80,15 @@ A company wants to be found/SEO
 
 Keep your workspace clean
 
-- [ ] No unused files in the repo
-- [ ] All files have a good, clear name
-- [ ] Good folder structure
-- [ ] The CSS folder does not have an image folder
-- [ ] Not too many files in the root folder
+- [x] No unused files in the repo
+- [x] All files have a good, clear name
+- [x] Good folder structure
+- [x] The CSS folder does not have an image folder
+- [x] Not too many files in the root folder
 
 Git(hub) is what you make it
 
-- [ ] All commits use a good comment
+- [x] All commits use a good comment
 - [ ] A github description has been filled in
 - [ ] A github website has been filled in
  
@@ -96,25 +96,25 @@ Git(hub) is what you make it
 
 Readme but also writeme
 
-- [ ] The readme says who made it
-- [ ] The readme says why they made it
-- [ ] The readme explains what this repo/project is
-- [ ] The readme explains why it is on github
-- [ ] The readme links to a preview (screenshot)
+- [x] The readme says who made it
+- [x] The readme says why they made it
+- [x] The readme explains what this repo/project is
+- [x] The readme explains why it is on github
+- [x] The readme links to a preview (screenshot)
 - [ ] The readme contains a nice image
 - [ ] The readme does not contain the readme/license of dependencies, libraries, templates
 - [ ] If needed they are included in the repo and are mentioned in the readme
 - [ ] The readme has a markdown title
-- [ ] The readme is divided in sections
-- [ ] The readme is fun to read
-- [ ] The readme looks good
-- [ ] The readme is clear, even for someone that has no idea what is going on
+- [x] The readme is divided in sections
+- [x] The readme is fun to read
+- [x] The readme looks good
+- [x] The readme is clear, even for someone that has no idea what is going on
 
 I'm So Meta, Even This Acronym
 
 - [ ] Social media sharing meta tags are correct
-- [ ] Keywords meta tag
-- [ ] Description meta tag
+- [x] Keywords meta tag
+- [x] Description meta tag
 - [ ] Title of the page is included
 - [ ] Favicon is included
 - [ ] Responsive meta tag is included
@@ -141,7 +141,7 @@ Putting the antics back in semantics (but only for the html)
 - [ ] No inline styling is put on any element
 - [ ] Id's are only used once
 - [ ] The same 'type' of elements have the same classes
-- [ ] All images have an alt attribute and a title
+- [x] All images have an alt attribute and a title
 
 Just kidding CSS deserves some love too
 
@@ -159,5 +159,8 @@ Errors are to be avoided
 - [ ] No http resources are used on an https website
 - [ ] The console shows no errors
 
+* ADDED REQUIREMENTS
+- [x] Add footer
+- [x] Add copyright
 
 > End
