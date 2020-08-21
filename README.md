@@ -165,6 +165,6 @@ Errors are to be avoided
 - [x] Add a review carousel to your page
 - [x] Add special effect on hover
 
-
+![image store](http://www.cyclejeep.be/afbeeldingen/cycle6.jpg)
 > End
 
