@@ -10,6 +10,7 @@
             color: #777;
         }
 
+
         .bgimg-1, .bgimg-2, .bgimg-3 {
             position: relative;
             opacity: 0.65;
@@ -61,32 +62,63 @@
                 background-attachment: scroll;
             }
         }
+
+        header {
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+            background-color: #0c76af;
+            position: fixed;
+            width: 80%;
+            z-index: 2;
+        }
     </style>
 </head>
 <body>
+<header>
+    <div class="logo">
+        <img id=logo src="bike.png" alt="logo">
+    </div>
+
+    <button id="about us" onclick="window.location.href='/Cycle-Jeep/about-us/about-us-16-html5/aboutus.html'">About Us</button>
+    <button id="products" onclick="window.location.href='/Cycle-Jeep/products/products.html'">Products</button>
+    <button id="repair" onclick="window.location.href='/Cycle-Jeep/maintenance/maintenance.html'">Schedule Your Repair
+    </button>
+    <button id="contact" onclick="window.location.href='/Cycle-Jeep/contact/ContactFrom_v15/index.html'">Contact</button>
+
+</header>
+
 
 <div class="bgimg-1">
     <div class="caption">
-        <span class="border">Over ons</span>
+        <span class="border">Ons verhaal</span>
     </div>
 </div>
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
     <h3 style="text-align:center;">Cycle Jeep</h3>
-    <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-<img src = "https://github.com/Tessakam/Cycle-Jeep/blob/master/public/images/front-of-shop.png" alt="frontstore">
+    <p>Welcome to Cycle jeep, your number one source for all things [product]. We're dedicated to providing you the very best of [product], with an emphasis on [store characteristic 1], [store characteristic 2], [store characteristic 3].</p>
+
+
+    <p> Founded in [year] by [founder name], Cycle jeep has come a long way from its beginnings in [starting location]. When [founder name] first started out, [his/her/their] passion for [brand message - e.g. "eco-friendly cleaning products"] drove them to start their own business.</p>
+
+
+    <p> We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to <a href="#"> contact us.</a></p>
+
+
+       <p> Sincerely,<br/>
+
+        [founder name]</p>
 </div>
 
 
 <div class="bgimg-2">
-    <div class="caption">
-        <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Passion</span>
-    </div>
 </div>
 
 <div style="position:relative;">
     <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-        <p>You ask , we deliver.</p>
     </div>
 </div>
 </body>
