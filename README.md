@@ -3,7 +3,7 @@
 Group challenge for company Cycle Jeep
 
 #WHO
-* Teamwork with Dwayne, Emmnuel, Felix and Tessa.
+* Teamwork with Dwayne (Products), Emmanuel (About us/Contact), Felix (home) and Tessa (Schedule your repair).
 * https://trello.com/b/VjVam5bn/gulag-site
 Check out our trello for all our working updates.
 
