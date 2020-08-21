@@ -38,7 +38,7 @@ Content
 - [x] Openinghours (if needed)
 - [x] Address (if needed)
 - [x] Clickable email
-- [ ] A working form (you can use https://formspree.io)
+- [x] A working form (you can use https://formspree.io)
     
 
 Text life matters aka typography is real
@@ -113,10 +113,10 @@ I'm So Meta, Even This Acronym
 - [x] Keywords meta tag
 - [x] Description meta tag
 - [x] Title of the page is included
-- [ ] Favicon is included (social media icons)
+- [x] Favicon is included (social media icons)
 - [x] Responsive meta tag is included
 - [x] Charset is defined
-- [ ] Author is defined (copyright?)
+- [x] Author is defined (copyright?)
 
 Data is the new oil
 
@@ -129,15 +129,15 @@ Perform all the tests
 
 Putting the antics back in semantics (but only for the html)
 
-- [ ] The html is semanticly correct
-- [ ] Navigation is in a nav
-- [ ] Lists use list tags
+- [x] The html is semanticly correct
+- [x] Navigation is in a nav
+- [x] Lists use list tags
 - [ ] H tags are used to signal importance
 - [ ] No div is used where another element is available
 - [ ] No span is used where another element is available
 - [ ] No inline styling is put on any element
-- [ ] Id's are only used once
-- [ ] The same 'type' of elements have the same classes
+- [x] Id's are only used once
+- [x] The same 'type' of elements have the same classes
 - [x] All images have an alt attribute and a title
 
 Just kidding CSS deserves some love too
@@ -150,7 +150,7 @@ Just kidding CSS deserves some love too
 Thermometer goes WHERE???
 
 - [ ] Your own style is included after the style of frameworks
-- [ ] Script tags are put at the end of the body or in the head with async/defer if possible
+- [x] Script tags are put at the end of the body or in the head with async/defer if possible
 
 Errors are to be avoided
 - [ ] No http resources are used on an https website

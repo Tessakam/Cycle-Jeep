@@ -15,7 +15,24 @@
 </head>
 <body>
 
-<nav></nav>
+<nav>
+    <header>
+        <div class="logo">
+            <img id=logo src="../public/images/logo-orange.png" alt="logo">
+        </div>
+
+        <button id="about us" onclick="window.location.href='/Cycle-Jeep/about-us/about-us-16-html5/aboutus.html'">About
+            Us
+        </button>
+        <button id="products" onclick="window.location.href='/Cycle-Jeep/products/products.html'">Products</button>
+        <button id="repair" onclick="window.location.href='/Cycle-Jeep/maintenance/maintenance.html'">Schedule Your
+            Repair
+        </button>
+        <button id="contact" onclick="window.location.href='/Cycle-Jeep/contact/ContactFrom_v15/index.html'">Contact
+        </button>
+
+    </header>
+</nav>
 
 <div class="parallax"></div>
 
@@ -50,82 +67,166 @@
                     much more comfy than the leather wrap removed!</p>
             </div>
         </div>
-        <hr>
     </div>
 </div>
 
-<div class="container">
-    <div class="container-text">
-        <div class="media-body col-md-7">
-            <br><br>
-            <H3>Have your bike checked to avoid accidents</H3>
-            <br>
-            <p> At Cycle Jeep you will find a wide range of maintenance products and tools. The range includes polishes
-                and lubricants and all kinds of tools and utensils to maintain and repair your bike yourself.</p>
-            <p> Do you prefer a maintenance carried out by <strong>professional, well-trained technicians?</strong></p>
-            <p>Don't hesitate to schedule a maintenance via our repair form. Afterwards, you will receive a
-                confirmation. Before you know it, you will be back on track!</p>
-        </div>
-    </div>
+<div class="section-1-container section-container">
+    <div class="container-repair">
+        <div class="row">
+            <div class="col section-1 section-description">
+                <div class="row">
+                    <div class="col-10 offset-1 col-lg-8 offset-lg-2 div-wrapper d-flex justify-content-center align-items-center">
 
-    <div class="container-tips">
-        <div class="media-body col-md 7">
-            <br><br>
-            <H3> 6 steps for DIY repair</H3>
-            <br>
-            <ol>
-                <ul><strong>Step 1.</strong> Brush the frame</ul>
-                <ul><strong>Step 2.</strong> Clean the wheels</ul>
-                <ul><strong>Step 3.</strong> Clean your gears</ul>
-                <ul><strong>Step 4.</strong> Clean the chain</ul>
-                <ul><strong>Step 5.</strong> Lubricate the chain again</ul>
-                <ul><strong>Step 6.</strong> Enjoy your ride!</ul>
-                <br>
-            </ol>
-            <img class="repair-img" src="../public/images/Repair_IMG03.jpeg" alt="image Cycle Jeep">
-            <br><br>
-        </div>
-    </div>
+                        <form action="https://formspree.io/xlepknza" method="POST">
+                            <div class="col" id="schedulerepair">
+                                <p><a class="btn btn-outline-success" data-toggle="collapse" href="#collapseExample"
+                                      aria-expanded="false"
+                                      aria-controls="collapseExample">Schedule your repair or maintenance today!</a></p>
+                                <div class="collapse" id="collapseExample">
 
-</div>
-<div class="container-repair">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="formGroupExampleInput" name="name"
+                                               placeholder="First name">
+                                    </div>
 
-    <div class="col-md-6 align-self-center" id="schedulerepair">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" name="name"
+                                               placeholder="Last name">
+                                    </div>
 
-        <p><a class="btn btn-outline-success" data-toggle="collapse" href="#collapseExample" aria-expanded="false"
-              aria-controls="collapseExample">Schedule your repair</a></p>
-        <div class="collapse" id="collapseExample">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="formGroupExampleInput3"
+                                               name="_replyto"
+                                               placeholder="email@example.com">
+                                    </div>
 
-            <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First name">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last name">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput3"
-                       placeholder="email@example.com">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="message"><br>
-                <button type="submit" class="btn btn-outline-success">Submit</button>
-                <form action="https://formspree.io/xlepknza" method="POST"></form>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+                                    <div class="form-group">
+                                        <input type="message" class="form-control" id="formGroupExampleInput4"
+                                               name="textarea"
+                                               placeholder="Your message">
+                                    </div>
+                                    <button type="submit" class="btn btn-outline-success">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="container-text">
+                        <div class="media-body col-md-7">
+                            <H3>Have your bike checked to avoid accidents</H3>
+                            <br>
+                            <p> At Cycle Jeep you will find a wide range of maintenance products and tools. The range
+                                includes polishes
+                                and lubricants and all kinds of tools and utensils to maintain and repair your bike
+                                yourself.</p>
+                            <p> Do you prefer a maintenance carried out by <strong>professional, well-trained
+                                technicians?</strong></p>
+                            <p>Don't hesitate to schedule a maintenance or repair via above form. Afterwards, you will
+                                receive a confirmation.</p>
+                            <p> Before you know it, you will be back on track!</p>
 
-<script src="maintenance.js"></script>
+                            <p><strong><br>Cycle Jeep team</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="container-tips">
+                        <div class="media-body col-md 7">
+                            <br><br>
+                            <H3>6 steps for DIY repair</H3>
+                            <br>
+                            <ol>
+                                <ul>Step <strong>1.</strong> Brush the frame</ul>
+                                <ul>Step <strong>2.</strong> Clean the wheels</ul>
+                                <ul>Step <strong>3.</strong> Clean your gears</ul>
+                                <ul>Step <strong>4.</strong> Clean the chain</ul>
+                                <ul>Step <strong>5.</strong> Lubricate the chain again</ul>
+                                <ul>Step <strong>6.</strong> Enjoy your ride!</ul>
+                                <br>
+                            </ol>
+                            <img class="repair-img" src="../public/images/Repair_IMG03.jpeg" alt="image Cycle Jeep">
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    <div class="inner-footer">
+                        <div class="logo-container">
+                            <img src="../public/images/logo-orange.png" alt="Company Logo">
+                        </div>
+                        <div class="footer-third">
+                            <h1>Our Partners</h1>
+                            <a id=link href="https://www.peugeot.be/nl/">Peugeot</a>
+                            <br>
+                            <a id=link href="https://www.sym.be/nl.html">Sym</a>
+                            <br>
+                            <a id=link href="https://www.gazelle.nl/">Gazelle</a>
+                            <br>
+                            <a id=link href="http://www.lavenir.be/">Lavenir</a>
+                            <br>
+                            <a id=link href="http://www.bikefunkids.com/">Van Der Wal</a>
+                        </div>
+                        <div class="footer-third">
+                            <h1>Extra</h1>
+                            <a id=link
+                               href="https://www.routen.be/fietsroutes?gclid=EAIaIQobChMIvoukhqes6wIVDpOyCh38QApPEAAYASAAEgLf1PD_BwE">Fietsroutes
+                                in Belgie</a>
+                        </div>
+                        <div class="footer-third">
+                            <h1>follow us</h1>
+                            <a href="https://www.facebook.com/cyclejeep"><img id=facebook
+                                                                              src="../public/images/facebook.png"
+                                                                              alt="link to Facebook"></a>
+                            <br>
+                            <a href="https://www.instagram.com/explore/tags/cyclist/?hl=en"><img id=instagram
+                                                                                                 src="../public/images/instagram-logo.png"
+                                                                                                 alt="link to Instagram"></a>
+                            <br>
+                            <a href="https://twitter.com/cycling"><img id=twitter src="../public/images/twitter.png"
+                                                                       alt="link to Twitter"></a>
+                            <br>
+                            <a href="mailto:cyclejeep@skynet.be"><img id=mail src="../public/images/mail.png"
+                                                                      alt="link to send the owners a mail"></a>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Gitschotelei 243
+                                <br>
+                                2140 Borgerhout
+                                <br>
+                                Tel: 03/321.43.51
+                                <br>
+                                cyclejeep@skynet.be
+                                <br>
+                                Mon,Sun : Closed
+                                <br>
+                                Tue - Fri : 09:00 – 12:00 & 13:30 - 18:00
+                                <br>
+                                Sat : 10:00 – 13:00
+                            </p>
+                            &copy; Copyright 2020, Gulag inc.
+
+                        </div>
+                    </div>
+                </footer>
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                        crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                        crossorigin="anonymous"></script>
+
+                <script src="maintenance.js"></script>
+
+
 </body>
+
 </html>
