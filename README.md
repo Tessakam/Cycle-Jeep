@@ -38,7 +38,7 @@ Content
 
 - [x] Openinghours (if needed)
 - [x] Address (if needed)
-- [ ] Clickable email
+- [x] Clickable email
 - [ ] A working form (you can use https://formspree.io)
     
 
@@ -49,7 +49,7 @@ Text life matters aka typography is real
 - [x] Some words have a different color
 - [x] We aren't using a default font, cause it's not 2004
 - [ ] Contrast is not too low
-- [ ] Typographic hierachy is correct
+- [ ] Typographic hierarchy is correct
 - [ ] Text has a clear intro, middle, conclusion
 - [ ] Intro, middle, conclusion is style correctly
 - [ ] Headline font is a headline font
@@ -90,9 +90,7 @@ Git(hub) is what you make it
 
 - [x] All commits use a good comment
 - [ ] A github description has been filled in
-- [ ] A github website has been filled in
- 
-    
+- [ ] A github website has been filled in  
 
 Readme but also writeme
 
@@ -162,5 +160,10 @@ Errors are to be avoided
 * ADDED REQUIREMENTS
 - [x] Add footer
 - [x] Add copyright
+- [ ] Make your page fully accessible for the visually impaired/blind
+- [x] Have your links always open in a new tab
+- [ ] Add Google maps
+- [x] Add a review carousel to your page
+- [x] Add special effect on hover
 
 > End

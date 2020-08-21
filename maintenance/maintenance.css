@@ -8,113 +8,43 @@ body {
   padding: 0;
   background-color: white; }
 
-.banner-img {
-  object-fit: none;
+.parallax {
+  background-image: url(../public/images/Repair_IMG01.jpeg);
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.media-container {
+  background-color: #325169;
+  color: #E1CD89;
+  object-fit: cover;
   object-position: center;
-  height: 250px;
-  width: 100%;
-  margin-top: 100px;
-  display: inline-block; }
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0; }
 
-.banner-caption {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
+.banner-img {
+  max-width: 500px;
+  margin: 0; }
+
+.container-review {
   text-align: center;
-  top: 30%;
-  background: rgba(0, 0, 0, 0.9);
-  font-family: Arial, sans-serif;
-  color: #fff;
-  width: 40%; }
+  margin-top: 30px; }
 
-.container-background {
-  background-color: cornflowerblue;
-  object-fit: none;
-  object-position: center; }
-
-.container {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 10px;
-  margin-top: 2%;
+#repair {
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px; }
 
-.carousel-control.left, .carousel-control.right {
-  background: none;
-  width: 25px; }
+/*make responsive for mobile*/
+@media only screen and (max-device-width: 600px) {
+  .parallax {
+    display: none; }
 
-.carousel-control.left {
-  left: -25px; }
-
-.carousel-control.right {
-  right: -25px; }
-
-.mark {
-  padding: 12px 0;
-  background: none; }
-
-.container-review h2 {
-  text-align: center; }
-
-.block-text p {
-  /*color: #585858;
-  font-family: Georgia;*/
-  font-style: italic;
-  line-height: 20px; }
-
-@media only screen and (max-width: 960px) {
-  #banner-img {
-    width: 100%; } }
-@media only screen and (min-width: 960px) {
-  #banner-img {
-    width: 25%; } }
-/*
-@mixin marginItems {
-  margin: 10px 5px;
-}*/
-/*header navbar from Felix*/
-.logo {
-  overflow: visible;
-  padding-top: 3%;
-  cursor: pointer;
-  z-index: +1; }
-
-header {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
-  background-color: #325169; }
-
-.nav_links {
-  list-style: none; }
-
-.nav_links li {
-  display: inline-block;
-  padding: 0 20px; }
-
-.nav_links li a {
-  transition: all 0.3s ease 0s; }
-
-.nav_links li a:hover {
-  color: black; }
-
-button {
-  list-style: none;
-  display: inline-block;
-  padding: 0 20px;
-  background-color: #efd993;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  text-align: center;
-  border-radius: 12px; }
-
-button:hover {
-  background-color: #b39f6d;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.14); }
+  .banner-img {
+    display: none; } }
 
 /*# sourceMappingURL=maintenance.css.map */
