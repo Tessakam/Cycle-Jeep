@@ -1,8 +1,19 @@
+@font-face {
+  font-family: "Crete";
+  src: url("public/fonts/CreteRound-Regular.ttf");
+
+@font-face {
+  font-family: "Brela";
+  src: url("public/fonts/brelaregular.otf");
+}
+}
+
 body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: white;
+  font-family: 'creteRound', sans-serif;
 }
 
 .container1{
@@ -42,6 +53,7 @@ header{
   background-color: rgb(12, 118, 175);
   position: fixed;
   width: 100%;
+  z-index: +2;
 }
 
 .nav_links{
@@ -96,26 +108,30 @@ button:hover{
 }
 
 footer{
+  font-family: "Crete", sans-serif;
   width:100vw;
   display: flex;
+  flex-direction: row;
   overflow: hidden;
-  padding: 70px 0;
+  padding-top: 15px;
   box-sizing: border-box;
   background-color: rgb(12, 116, 173);
 }
 
 .inner-footer{
-  display: block;
-  margin: 0 auto;
-  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  width: 80%;
   height: 100%;
+  margin: auto;
 }
 
 .inner-footer .logo-container{
   width: 35%;
   float: left;
   height:100%;
-  diplay:block;
+  display:block;
 }
 
 .inner-footer .logo-container img{
@@ -145,7 +161,7 @@ footer{
   color: white;
   display: block;
   font-weight: 200;
-  width: 100%;
+  width: 20%;
   margin-bottom: 5px;
 }
 
@@ -163,13 +179,18 @@ footer{
   font-size:  16px;
   font-weight: 200;
   display: block;
-  width: 100%;
+  width: 20%;
   padding-top: 20px;
   float: left;
 }
 
 h1{
-  
+  font-family: Brela, sans-serif;
+  font-weight: bold;
+  color: #ff6536;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 
 
