@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Crete";
-  src: url("public/fonts/CreteRound-Regular.ttf");}
+  src: url("public/fonts/CreteRound-Regular.ttf");
   @font-face {
     font-family: "Brela";
     src: url("public/fonts/brelaregular.otf");
@@ -189,6 +189,21 @@ h1 {
   color: #ff6536;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.inner-footer .footer-third .a .img {
+  height: 20px;
+  width: 20px;
+}
+
+#facebook, #instagram, #mail, #twitter {
+  height: 40px;
+  width: 40px;
+  padding-bottom: 10px;
+}
+
+#link {
+  color: white;
 }
 
 /*# sourceMappingURL=Style.css.map */

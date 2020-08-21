@@ -145,6 +145,7 @@ footer{
   float: left;
   height: 100%;
 }
+
 .inner-footer .footer-third:last-child{
   margin-right: 0;
 }
@@ -192,5 +193,18 @@ h1{
   padding-bottom: 20px;
 }
 
+.inner-footer .footer-third .a .img{
+  height: 20px;
+  width: 20px;
+}
 
 
+#facebook, #instagram, #mail, #twitter{
+  height: 40px;
+  width: 40px;
+  padding-bottom: 10px
+}
+
+#link{
+  color: white;
+}
