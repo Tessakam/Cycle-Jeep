@@ -1,0 +1,59 @@
+body{
+  color: lightblue;
+}
+
+.carousel{
+  object-fit: contain;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 300px; /* example */
+}
+
+.carousel-item img {
+  object-fit: none;
+  object-position: center;
+  height: 250px;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+}
+
+.carousel-container{
+  height: 5%;
+  margin: auto;
+}
+
+
+.carousel {
+  width:640px;
+  height:360px;
+  margin: auto;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+  margin-left: auto;
+}
+
+.jumbotron{
+  color: #ff2148;
+}
+
+
+.card-list{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+
+}
+
+.container-bike{
+  padding: 2px 16px;
+
+}

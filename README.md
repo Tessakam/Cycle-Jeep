@@ -1,5 +1,4 @@
-#Readme
-
+#Readme Cycle-Jeep
 
 Group challenge for company Cycle Jeep
 
@@ -38,7 +37,7 @@ Content
 
 - [x] Openinghours (if needed)
 - [x] Address (if needed)
-- [ ] Clickable email
+- [x] Clickable email
 - [ ] A working form (you can use https://formspree.io)
     
 
@@ -48,11 +47,11 @@ Text life matters aka typography is real
 - [x] Some words are italic
 - [x] Some words have a different color
 - [x] We aren't using a default font, cause it's not 2004
-- [ ] Contrast is not too low
-- [ ] Typographic hierachy is correct
-- [ ] Text has a clear intro, middle, conclusion
+- [x] Contrast is not too low
+- [x] Typographic hierarchy is correct
+- [x] Text has a clear intro, middle, conclusion
 - [ ] Intro, middle, conclusion is style correctly
-- [ ] Headline font is a headline font
+- [x] Headline font is a headline font
 - [ ] Body text font is a body text font
 - [x] The text on the page has a good flow
 
@@ -60,23 +59,23 @@ Style
 
 - [x] Black is almost black but not #000
 - [x] White is almost white but not #fff 
-- [ ] The website is not an ugly color mess
-- [ ] The styling is consistent
+- [x] The website is not an ugly color mess
+- [x] The styling is consistent
 - [ ] It is not four totally different pages thrown together
 - [ ] Everything works even if you are colorblind
 
 Not everyone has free 4G aka speed matters
 
-- [ ] Pictures are not too heavy
-- [ ] Pictures are not pixelated
+- [x] Pictures are not too heavy
+- [x] Pictures are not pixelated
 
 A company wants to be found/SEO
 
-- [ ] All the keywords this company wants to be found on are on the page
-- [ ] Page has an H1 tag
-- [ ] Page has keyword meta tags
-- [ ] Page has a title with the keywords in
-- [ ] Page loads fast
+- [x] All the keywords this company wants to be found on are on the page
+- [x] Page has an H1 tag
+- [x] Page has keyword meta tags
+- [x] Page has a title with the keywords in
+- [x] Page loads fast
 
 Keep your workspace clean
 
@@ -89,10 +88,8 @@ Keep your workspace clean
 Git(hub) is what you make it
 
 - [x] All commits use a good comment
-- [ ] A github description has been filled in
-- [ ] A github website has been filled in
- 
-    
+- [?] A github description has been filled in
+- [x] A github website has been filled in  
 
 Readme but also writeme
 
@@ -101,10 +98,10 @@ Readme but also writeme
 - [x] The readme explains what this repo/project is
 - [x] The readme explains why it is on github
 - [x] The readme links to a preview (screenshot)
-- [ ] The readme contains a nice image
-- [ ] The readme does not contain the readme/license of dependencies, libraries, templates
-- [ ] If needed they are included in the repo and are mentioned in the readme
-- [ ] The readme has a markdown title
+- [x] The readme contains a nice image
+- [?] The readme does not contain the readme/license of dependencies, libraries, templates
+- [?] If needed they are included in the repo and are mentioned in the readme
+- [x] The readme has a markdown title
 - [x] The readme is divided in sections
 - [x] The readme is fun to read
 - [x] The readme looks good
@@ -115,11 +112,11 @@ I'm So Meta, Even This Acronym
 - [ ] Social media sharing meta tags are correct
 - [x] Keywords meta tag
 - [x] Description meta tag
-- [ ] Title of the page is included
-- [ ] Favicon is included
-- [ ] Responsive meta tag is included
-- [ ] Charset is defined
-- [ ] Author is defined
+- [x] Title of the page is included
+- [ ] Favicon is included (social media icons)
+- [x] Responsive meta tag is included
+- [x] Charset is defined
+- [ ] Author is defined (copyright?)
 
 Data is the new oil
 
@@ -162,5 +159,12 @@ Errors are to be avoided
 * ADDED REQUIREMENTS
 - [x] Add footer
 - [x] Add copyright
+- [ ] Make your page fully accessible for the visually impaired/blind
+- [x] Have your links always open in a new tab
+- [x] Add Google maps (contact page)
+- [x] Add a review carousel to your page
+- [x] Add special effect on hover
 
+![image store](http://www.cyclejeep.be/afbeeldingen/cycle6.jpg)
 > End
+
