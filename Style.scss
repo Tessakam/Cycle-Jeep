@@ -5,11 +5,32 @@ body{
   background-color: white;
 }
 
+.container1{
+  display: flex;
+  width: 80%;
+}
+
+.titlebox{
+  width: 50%;
+  margin:auto;
+  text-align: center;
+
+}
+
+.cardgroup{
+  width: 80%;
+  display: flex;
+  vertical-align: center;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
+
 .logo{
   overflow: visible;
   padding-top: 3%;
   cursor: pointer;
-  z-index: +1;
+  z-index: +2;
 }
 
 header{
@@ -18,7 +39,9 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: rgb(50, 81, 105);
+  background-color: rgb(12, 118, 175);
+  position: fixed;
+  width: 100%;
 }
 
 .nav_links{
@@ -42,10 +65,13 @@ button{
   list-style: none;
   display: inline-block;
   padding: 0 20px;
-  background-color: #efd993;
+  color: white;
+  background-color: #ff6536;
   border:none;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  text-align: center;
+  border-radius: 12px;
 }
 
 button:hover{
@@ -55,14 +81,95 @@ button:hover{
 
 #banner{
   width: 100%;
-  height: 20vw;
-  color: green;
+  height: 30vw;
 }
 
 .container{
-  display: block;
-  border: solid black;
-  background-color: #ff2148;
-
-
+  z-index: +1;
 }
+
+.card{
+  width: 30%;
+  margin: 3%;
+  border: 15px inset #5392b3;
+  background-color: #0c74ad;
+}
+
+footer{
+  width:100vw;
+  display: flex;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: rgb(12, 116, 173);
+}
+
+.inner-footer{
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.inner-footer .logo-container{
+  width: 35%;
+  float: left;
+  height:100%;
+  diplay:block;
+}
+
+.inner-footer .logo-container img{
+  width: 12vw;
+  height: 9vh;
+}
+
+.inner-footer .footer-third{
+  width: calc(21.666666667% - 20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+.inner-footer .footer-third:last-child{
+  margin-right: 0;
+}
+.inner-footer .footer-third h1{
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner-footer .footer-third p {
+  font-size: 18px;
+  color: white;
+  display: block;
+  font-weight: 200;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.inner-footer .footer-third span{
+  color: white;
+  font-size:  16px;
+  font-weight: 200;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.inner-footer .info{
+  color: white;
+  font-size:  16px;
+  font-weight: 200;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  float: left;
+}
+
+h1{
+  
+}
+
+
